@@ -1,0 +1,36 @@
+.previewUser-container {
+    width: 700px;
+    border: 1px solid #c1c1c1 ;
+    padding: 10px 20px;
+}
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userTable th,
+.userTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.userTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.userTable tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.trashbtn {
+    background: #da1717;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.trashbtn img {
+    width: 20px;
+}

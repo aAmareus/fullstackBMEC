@@ -1,0 +1,45 @@
+.showReservas {
+    width: 700px;
+    padding: 10px 30px;
+    border: 1px solid #c1c1c1;
+}
+.reservas-container {
+    margin: 20px;
+}
+
+.table-content {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.table-content th,
+.table-content td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-content th {
+    background-color: #99b4ff;
+    /* azul encabezado */
+    color: white;
+    font-weight: bold;
+}
+
+.table-content tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* filas alternadas */
+}
+
+.table-content tr:hover {
+    background-color: #e3f2fd;
+    /* azul claro al pasar el mouse */
+    cursor: pointer;
+}
+
+.table-content td {
+    color: #333;
+}

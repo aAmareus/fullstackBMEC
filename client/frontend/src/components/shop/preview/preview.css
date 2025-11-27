@@ -1,0 +1,13 @@
+.preview-container {
+    padding: 50px 5rem;
+    background: #fff;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.tc {
+    width: 100%;
+    text-align: center;
+}

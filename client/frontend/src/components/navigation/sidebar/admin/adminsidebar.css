@@ -1,0 +1,71 @@
+.sidebar-modal-container {
+    max-width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 100px;
+
+}
+
+.sidebar-container {
+    width: auto;
+    height: calc(100% - 80px);
+    position: fixed;
+    top: 80px;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #ccc;
+    z-index: 10;
+    left: -160px;
+        transition: 0.2s;
+}
+
+.sidebar-container:hover {
+    left: 0;
+    transition: 0.2s;
+}
+
+.sidebar-list .sidebar-item p {
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #1c1c1c;
+}
+
+.sidebar-item {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 5px 0 5px;
+}
+
+.sidebar-item .toCatalog {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar-item span img {
+    width: 30px;
+}
+
+.sidebar-item:hover {
+    background-color: #f0f0f060;
+    cursor: pointer;
+}
+
+.sidebar-item:nth-child(6) {
+    margin-top: calc(100vh - 380px);
+}

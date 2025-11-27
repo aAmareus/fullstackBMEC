@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Valentina",
+        "apellido": "Flores",
+        "username": "Valita",
+        "correo": "val.flores@bec.cl",
+        "contrasena": "chichenitza"
+    },
+    {
+        "nombre": "Matias",
+        "apellido": "Carvajal",
+        "username": "Capape",
+        "correo": "mat.carvajal@bec.cl",
+        "contrasena": "bluelock78"
+    },
+    {
+        "nombre": "Martin",
+        "apellido": "Sierra",
+        "username": "Kretz",
+        "correo": "martin.sierra.12@gmail.com",
+        "contrasena": "LokiGod56"
+    },
+    {
+        "nombre": "Amaro",
+        "apellido": "González",
+        "username": "Amareus",
+        "correo": "gonzalezamareus@gmail.com",
+        "contrasena": "pauTeAmo<3"
+    }
+]

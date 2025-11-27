@@ -1,0 +1,93 @@
+.register-form-container {
+    background: #fff;
+    padding: 20px 50px;
+    width: 40%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.register-form-title {
+    width: 100%;
+}
+.register-form-layout {
+    padding: 10px 30px;
+    display: flex;
+}
+
+.register-form-layout .register-fields {
+    width: 50%;
+}
+
+.register-form-layout .register-inputfield {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    margin: auto auto 10px auto;
+}
+
+.register-form-layout .button-container {
+    width: 50%;
+    padding: 10px 0 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container .btn-submit {
+    background: #fff;
+    color: #000;
+    padding: 10px 30px;
+    background: none;
+    outline: none;
+    border: 2px solid #000;
+    transform: skew(-21deg);
+    cursor: pointer;
+}
+
+.btn-submit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #000;
+    opacity: 0;
+    z-index: -1;
+    transition: all .5s;
+}
+
+.btn-submit .btn-text {
+    display: inline-block;
+    transform: skew(21deg);
+}
+
+.btn-submit:hover {
+    color: #fff;
+}
+
+.btn-submit:hover::before {
+    right: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.button-container .link-text {
+    width: 100%;
+    font-size: 12px;
+}
+
+.link-text .redirect {
+    color: #000;
+    text-decoration: none;
+}
+
+.link-text .redirect:hover {
+    text-decoration: 1px solid underline;
+}

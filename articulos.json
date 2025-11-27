@@ -1,0 +1,386 @@
+[
+    {
+        "titulo": "A Stormy Sea",
+        "genero": "Accion",
+        "categoria": "Adolescentes",
+        "autor": "Daniele Walsh",
+        "lanzamiento": "1996-01-25",
+        "img": "A Stormy Sea.jpg"
+    },
+    {
+        "titulo": "Albert Einstein",
+        "genero": "Documental",
+        "categoria": "Adolescentes",
+        "autor": "Eliseu Johnson",
+        "lanzamiento": "2004-07-23",
+        "img": "Albert Einstein.jpg"
+    },
+    {
+        "titulo": "Alicia en el País de las Maravillas",
+        "genero": "Fantasia",
+        "categoria": "Todas las edades",
+        "autor": "Lewis Carol",
+        "lanzamiento": "2003-04-04",
+        "img": "Alicia en el país de las Maravillas.png"
+    },
+    {
+        "titulo": "Angient Civilizations",
+        "genero": "Documental",
+        "categoria": "Mayores de 18",
+        "autor": "Thomas Nelson",
+        "lanzamiento": "1982-09-12",
+        "img": "Angient Civilizations.jpg"
+    },
+    {
+        "titulo": "Beneath the Shadows",
+        "genero": "Terror",
+        "categoria": "Adolescentes",
+        "autor": "Mark Thompson",
+        "lanzamiento": "2010-03-19",
+        "img": "Beneath the Shadows.jpg"
+    },
+    {
+        "titulo": "Calculus Applications",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Joshua Greene",
+        "lanzamiento": "1997-06-07",
+        "img": "Calculus Aplication.jpg"
+    },
+    {
+        "titulo": "Calculus",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Henby Grant",
+        "lanzamiento": "2002-04-07",
+        "img": "Calculus.jpg"
+    },
+    {
+        "titulo": "City of Steel",
+        "genero": "Accion",
+        "categoria": "Mayores de 18",
+        "autor": "Daniel Knight",
+        "lanzamiento": "2008-02-10",
+        "img": "City of Steel.jpg"
+    },
+    {
+        "titulo": "Crónicas de Narnia",
+        "genero": "Fantasia",
+        "categoria": "Adolescentes",
+        "autor": "C.S. Lewis",
+        "lanzamiento": "2006-07-05",
+        "img": "Crónicas de Narnia I.jpg"
+    },
+    {
+        "titulo": "Cruce de Caminos",
+        "genero": "Romance",
+        "categoria": "Adolescentes",
+        "autor": "Naira Gamboa",
+        "lanzamiento": "1995-12-28",
+        "img": "Curce de Caminos.png"
+    },
+    {
+        "titulo": "Dark Descent",
+        "genero": "Misterio",
+        "categoria": "Adolescentes",
+        "autor": "Nathan Carter",
+        "lanzamiento": "2010-01-30",
+        "img": "Dark Descent.jpg"
+    },
+    {
+        "titulo": "Don Quijote de la Mancha",
+        "genero": "Tragedia",
+        "categoria": "Adolescentes",
+        "autor": "Miguel de Cervantes",
+        "lanzamiento": "1943-01-03",
+        "img": "DonQuijoteDeLaMancha.jpg"
+    },
+    {
+        "titulo": "Gladiators of Rome",
+        "genero": "Accion",
+        "categoria": "Adolescentes",
+        "autor": "Nicholas Barrett",
+        "lanzamiento": "1980-08-11",
+        "img": "Gladiators of rome.jpg"
+    },
+    {
+        "titulo": "Greek Philosohpy",
+        "genero": "Historia",
+        "categoria": "Adolescentes",
+        "autor": "Jonathan Clarke",
+        "lanzamiento": "1999-07-22",
+        "img": "Greek Philosophy.jpg"
+    },
+    {
+        "titulo": "History of the Roman Empire",
+        "genero": "Documental",
+        "categoria": "Adolescentes",
+        "autor": "Philip Langston",
+        "lanzamiento": "1960-12-11",
+        "img": "History of the Roman Empire.jpg"
+    },
+    {
+        "titulo": "Into the Woods",
+        "genero": "Terror",
+        "categoria": "Adolescentes",
+        "autor": "Emily Parker",
+        "lanzamiento": "2000-02-15",
+        "img": "Into the Woods.jpg"
+    },
+    {
+        "titulo": "Introduction to Biology",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Henry Nichols",
+        "lanzamiento": "1985-11-21",
+        "img": "Introduction to Biology.jpg"
+    },
+    {
+        "titulo": "Introduction to Economics",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Fhilip Stone",
+        "lanzamiento": "2009-09-11",
+        "img": "Introduction to Economics.jpg"
+    },
+    {
+        "titulo": "Jane Austen: A Life",
+        "genero": "Comedia",
+        "categoria": "Adolescentes",
+        "autor": "Susan Bradley",
+        "lanzamiento": "2005-01-10",
+        "img": "Jane Austen.jpg"
+    },
+    {
+        "titulo": "Laberinto de los Susurros",
+        "genero": "Misterio",
+        "categoria": "Adolescentes",
+        "autor": "Gabriel M. Valero",
+        "lanzamiento": "2013-03-13",
+        "img": "Laberinto de los susurros.jpg"
+    },
+    {
+        "titulo": "Linear Algebra",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Peter Walker",
+        "lanzamiento": "2001-08-15",
+        "img": "Linear Algebra (1).jpg"
+    },
+    {
+        "titulo": "Linear Algebra",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "George Thompson",
+        "lanzamiento": "2004-10-30",
+        "img": "Linear Algebra.jpg"
+    },
+    {
+        "titulo": "Lost in Iceland",
+        "genero": "Aventura",
+        "categoria": "Adolescentes",
+        "autor": "Emma Norris",
+        "lanzamiento": "2010-10-05",
+        "img": "Lost in Inceland.jpg"
+    },
+    {
+        "titulo": "Lost Kingdom",
+        "genero": "Aventura",
+        "categoria": "Adolescentes",
+        "autor": "James Rowland",
+        "lanzamiento": "2021-10-12",
+        "img": "Lost Kingdom.jpg"
+    },
+    {
+        "titulo": "Murder in the Chapel",
+        "genero": "Misterio",
+        "categoria": "Mayores de 18",
+        "autor": "Laura Benson",
+        "lanzamiento": "2012-12-06",
+        "img": "Murder in the Chapel.jpg"
+    },
+    {
+        "titulo": "Newton to Einstein",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Peter Walker",
+        "lanzamiento": "2001-05-09",
+        "img": "Newton to Einstein.jpg"
+    },
+    {
+        "titulo": "Number theory",
+        "genero": "Aademico",
+        "categoria": "Adolescentes",
+        "autor": "Alan Brewer",
+        "lanzamiento": "2005-05-13",
+        "img": "Number Theory.jpg"
+    },
+    {
+        "titulo": "Programmic",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Angela Roberts",
+        "lanzamiento": "2008-12-16",
+        "img": "Programmic.jpg"
+    },
+    {
+        "titulo": "Programming in Python",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Megan Brooks",
+        "lanzamiento": "2006-02-08",
+        "img": "Programming in Python.jpg"
+    },
+    {
+        "titulo": "Quantum Mechanics",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "David Fletcher",
+        "lanzamiento": "1973-04-17",
+        "img": "Quantum Mechanics.jpg"
+    },
+    {
+        "titulo": "Raven's Blood",
+        "genero": "Terror",
+        "categoria": "Mayores de 18",
+        "autor": "Peter Morgan",
+        "lanzamiento": "1956-12-08",
+        "img": "Raven's Blood.jpg"
+    },
+    {
+        "titulo": "Rebels and Patriots",
+        "genero": "Documental",
+        "categoria": "Adolescentes",
+        "autor": "Roger Wilkes",
+        "lanzamiento": "1995-04-11",
+        "img": "Rebels and Patriots.jpg"
+    },
+    {
+        "titulo": "Scars in the Dark",
+        "genero": "Terror",
+        "categoria": "Mayores de 18",
+        "autor": "Megan Carter",
+        "lanzamiento": "2003-09-18",
+        "img": "Scars in the Dark.jpg"
+    },
+    {
+        "titulo": "Silent Scream",
+        "genero": "Terror",
+        "categoria": "Mayores de 18",
+        "autor": "Stephen Marshall",
+        "lanzamiento": "2003-04-15",
+        "img": "Silent Scream.jpg"
+    },
+    {
+        "titulo": "The Art of Poetry",
+        "genero": "Romance",
+        "categoria": "Todas las edades",
+        "autor": "Harold Bennet",
+        "lanzamiento": "1985-06-11",
+        "img": "The Art of Poetry.jpg"
+    },
+    {
+        "titulo": "The Chemistry of life",
+        "genero": "Academico",
+        "categoria": "Adolescentes",
+        "autor": "Julia Porter",
+        "lanzamiento": "1987-06-19",
+        "img": "The chemistry of Life.jpg"
+    },
+    {
+        "titulo": "The Duke and I",
+        "genero": "Romance",
+        "categoria": "Todas las edades",
+        "autor": "Victoria Hamilton",
+        "lanzamiento": "2000-07-29",
+        "img": "The Duke and I.jpg"
+    },
+    {
+        "titulo": "The Duke's Secret Third",
+        "genero": "Romance",
+        "categoria": "Adolescentes",
+        "autor": "Catherine Boyd",
+        "lanzamiento": "1980-05-24",
+        "img": "The Duke's Secret Third.jpg"
+    },
+    {
+        "titulo": "The Duke's Secret",
+        "genero": "Romance",
+        "categoria": "Todas las edades",
+        "autor": "Cathres Boyden",
+        "lanzamiento": "2004-10-23",
+        "img": "The Duke's Secret.jpg"
+    },
+    {
+        "titulo": "The Haunting in the Blackwood House",
+        "genero": "Terror",
+        "categoria": "Mayores de 18",
+        "autor": "Margaret James",
+        "lanzamiento": "2003-09-09",
+        "img": "The haunting in the Blackwood House.jpg"
+    },
+    {
+        "titulo": "The Horror Within",
+        "genero": "Terror",
+        "categoria": "Mayores de 18",
+        "autor": "Daniel Lee",
+        "lanzamiento": "1990-04-12",
+        "img": "The Horror Within.jpg"
+    },
+    {
+        "titulo": "The Investigator",
+        "genero": "Misterio",
+        "categoria": "Adolescentes",
+        "autor": "Amanda Clark",
+        "lanzamiento": "2006-07-17",
+        "img": "The Investigator.jpg"
+    },
+    {
+        "titulo": "The Lost Caverns",
+        "genero": "Aventura",
+        "categoria": "Adolescentes",
+        "autor": "Matthew Evans",
+        "lanzamiento": "1999-03-02",
+        "img": "The Lost Caverns.jpg"
+    },
+    {
+        "titulo": "The Philosophers Journey",
+        "genero": "Documental",
+        "categoria": "Adolescentes",
+        "autor": "Vincent Howard",
+        "lanzamiento": "2003-04-17",
+        "img": "The Philosophers Journey.jpg"
+    },
+    {
+        "titulo": "The Power of Mind",
+        "genero": "Documental",
+        "categoria": "Mayores de 18",
+        "autor": "Jessica Harris",
+        "lanzamiento": "2014-01-20",
+        "img": "The Power of the Mind.jpg"
+    },
+    {
+        "titulo": "Threads of Time",
+        "genero": "Aventura",
+        "categoria": "Adolescentes",
+        "autor": "Laura Greer",
+        "lanzamiento": "2000-05-29",
+        "img": "Threads of Time.jpg"
+    },
+    {
+        "titulo": "World War II",
+        "genero": "Documental",
+        "categoria": "Adolescentes",
+        "autor": "David Franklin",
+        "lanzamiento": "2002-05-15",
+        "img": "World War II.jpg"
+    },
+    {
+        "titulo": "Como dejar de ser Gay",
+        "genero": "Guía",
+        "categoria": "Todas las edades",
+        "autor": "Vicente Rivera",
+        "lanzamiento": "2025-11-26",
+        "img": "MegaKnight.jpg"
+    }
+]

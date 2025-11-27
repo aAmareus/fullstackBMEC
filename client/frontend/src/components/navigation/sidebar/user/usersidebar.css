@@ -1,0 +1,126 @@
+.usersidebar-container {
+    background: #fff;
+    display: fixed;
+    width: 300px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0 20px 0;
+}
+.usersidebar-container .userpfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.usersidebar-container .userinfo {
+    font-size: 14px;
+}
+
+/* CSS form the MODAL */
+
+.editUser-container {
+    position: fixed;
+    z-index: 50;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(4px);
+}
+
+.editUser-container .editUserForm {
+    background: #fff;
+    max-width: 50%;
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.editUserForm::before {
+    content: '*Solo rellena los campos que quieras modificar!';
+    margin-top: 150px;
+    position: absolute;
+    color: red;
+    font-size: 12px;
+}
+
+.editUserForm .inputform {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.changeBtn-container {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.changeBtn-container .saveChanges-btn {
+    padding: 10px 20px;
+    background: #09b12d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.changeBtn-container .saveChanges-btn:hover {
+    background-color: #078a23;
+}
+
+.changeBtn-container .cancel-btn {
+    padding: 10px 20px;
+    background: #da1717;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.changeBtn-container .cancel-btn:hover {
+    background: #ac1313;
+}
+
+.logout-user .logout-btn {
+    background: #da1717;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.logout-user .logout-btn:hover {
+    background: #ac1313;
+    transition: .2s;
+}
+
+.logout-user .logout-btn img {
+    height: 20px;
+    filter: invert();
+}

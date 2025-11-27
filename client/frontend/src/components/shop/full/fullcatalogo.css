@@ -1,0 +1,199 @@
+.catalogo-container,
+.search-menu {
+    background: #fff;
+}
+
+.catalogo-container {
+    min-height: 90vh;
+}
+
+.allcards-container {
+    display: grid;
+    padding: 100px 200px;
+    place-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* ESTILOS PARA EL SHOPPING CART */
+.shoppingCart-container {
+    background: #fff;
+    position: fixed;
+    max-width: 200px;
+    min-width: 250px;
+    max-height: calc(100vh - 80px);
+    right: 0;
+    top: 80px;
+    z-index: 10;
+    border: 1px solid #c1c1c11f;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.shoppingCart-container .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.shoppingCart-container .shoppingcart-toggle {
+    background: #0bb10b;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.shoppingcart-toggle img {
+    width: 20px;
+}
+
+.displaybooks {
+    width: 100%;
+    min-height: 100px;
+}
+
+.displaybooks .nobooksyet {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #292929;
+    font-size: 13px;
+}
+
+.displaybooks .cart-card {
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+}
+
+.cart-card .bookcart-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookcartinfo .bookcart-title,
+.bookcartinfo .bookcart-autor {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.bookcartinfo .bookcart-title span,
+.bookcartinfo .bookcart-autor span {
+    color: #292929;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart-card .removebook .removebookbtn {
+    background: #da1717;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.removebook .removebookbtn:hover {
+    background: #ac1313;
+    transition: .2s;
+}
+
+.removebookbtn img {
+    width: 20px;
+}
+
+.shoppingCart-container .buttonaccept {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.reserva-container {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reserva-container .input-last-date {
+    padding: 5px 10px;
+    width: 100%;
+}
+.reserva-container .createreserva {
+    background: #00b7ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.reserva-container .createreserva:hover {
+    background: #0668d1;
+    transition: .2s;
+}
+
+
+
+/*  ESTILOS DE LA BARRA DE BÚSQUEDA */
+
+.search-menu {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dropdown-menu {
+    display: flex;
+    gap: 5px;
+}
+
+.clearfilter {
+    background: #06090c;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* background: #09b12d; */
+    /* background: #007bff; */
+    border-radius: 5px;
+}
+
+.clearfilter:hover {
+    background: #292f36;
+}
+
+#year-category,
+#genre-category,
+#type-category,
+#input-title {
+    height: 25px;
+}
+
+#input-title {
+    padding: 0 0 0 10px;
+    outline: none;
+}

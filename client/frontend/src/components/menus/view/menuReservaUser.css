@@ -1,0 +1,97 @@
+.menuReserva-container {
+    background: #fff;
+    width: 750px;
+    padding: 40px;
+    margin: auto;
+}
+
+.resItems {
+    min-height: 300px;
+    max-height: 300px;
+    border: 1px solid #c1c1c1;
+    overflow: auto;
+}
+
+.resItems .protip {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c1c1c;
+}
+
+.reservas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.reservas-table th,
+.reservas-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.reservas-table th {
+    background-color: #9db7ff;
+    /* verde encabezado */
+    color: #000;
+    font-weight: bold;
+}
+
+.reservas-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* filas alternadas */
+}
+
+.reservas-table tr:hover {
+    background-color: #f1f1f1;
+    /* efecto hover */
+    cursor: pointer;
+}
+
+.reservas-table td {
+    color: #333;
+}
+
+
+.resBtnContainer {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.editInfo-user .editInfo-button,
+.resBtnContainer .button-redirect {
+    background: #007bff;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.editInfo-user .editInfo-button:hover,
+.resBtnContainer .button-redirect:hover {
+    background: #0056b3;
+    transition: .3s;
+}
+
+
+
+.item {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    border: 1px solid #c1c1c1;
+}
+
+.item .detailItem {
+    display: flex;
+    gap: 50px;
+}

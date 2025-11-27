@@ -1,0 +1,60 @@
+.createNewBook-container {
+    width: 700px;
+    padding: 50px 20px;
+    border: 1px solid #c1c1c1;
+}
+
+.create-inputs {
+    display: grid;
+    margin-top: 6em;
+    gap: 20px 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.create-inputs .create-input:not(:last-child) {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-bottom: 2px solid #000;
+}
+
+.create-inputs #cover {
+    background: #ffa600;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.create-inputs #cover:hover {
+    background: #c9860a;
+    transition: .2s;
+}
+
+#cover::file-selector-button {
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+    position: absolute;
+    border: none;
+    padding: 5px 10px;
+}
+
+.uploadarticlebtn {
+    grid-column: 1 / -1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+
+.uploadarticlebtn:hover {
+    background: #3f3f3f;
+    transition: .2s;
+}

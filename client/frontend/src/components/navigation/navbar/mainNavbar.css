@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+   padding: 1rem 2rem;
+   box-shadow: 0 2px 4px #0000001a;
+   background: #fff;
+   position: sticky;
+   top: 0;
+
+   z-index: 5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
